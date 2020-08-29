@@ -1,3 +1,4 @@
+package Programming_Logic_1;
 /*7. Write an algorithm and Java Program for accepting a number and display the whether it is odd or even.
 
 Algorithm
@@ -8,12 +9,12 @@ Step 4: Else Display Odd.
 */
 
 import java.util.*;
-public class Program7{
+public class ProgramSeven{
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter the value");
-		int n=sc.nextInt();
-		if(n%2==0)
+		int number=scanner.nextInt();
+		if(number%2==0)
 			System.out.println("Even Number");
 		else 
 			System.out.println("Odd Number");

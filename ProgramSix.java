@@ -1,4 +1,6 @@
-/*6. Write an algorithm and Java Program for accepting five numbers and display the sum and average of the numbers.
+package Programming_Logic_1;
+/*6. Write an algorithm and Java Program for accepting five numbers 
+ 	 and display the sum and average of the numbers.
 
 Algorithm
 Step 1: Take input of five numbers.
@@ -8,16 +10,16 @@ Step 4: Display the Sum of numbers from Step 2 and Average of numbers from Step 
 */
 
 import java.util.*;
-public class Program6{
+public class ProgramSix{
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter the 5 numbers");
-		int a=sc.nextInt();
-		int b=sc.nextInt();
-		int c=sc.nextInt();
-		int d=sc.nextInt();
-		int e=sc.nextInt();
-		int sum=a+b+c+d+e;
+		int numberOne=scanner.nextInt();
+		int numberTwo=scanner.nextInt();
+		int numberThree=scanner.nextInt();
+		int numberFour=scanner.nextInt();
+		int numberFive=scanner.nextInt();
+		int sum=numberOne+numberTwo+numberThree+numberFour+numberFive;
 		float average=sum/5;
 		System.out.println("Sum: "+sum);
 		System.out.println("Average: "+average);

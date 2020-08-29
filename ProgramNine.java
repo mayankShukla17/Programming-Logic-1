@@ -1,4 +1,6 @@
-/*9.Write an algorithm and Java Program for calculating the area of rectangle and square separately.
+package Programming_Logic_1;
+/*9. Write an algorithm and Java Program for calculating the area of 
+	 rectangle and square separately.
 
 Algorithm:
 Step 1: Take input of length and breadth of a rectangle.
@@ -11,16 +13,16 @@ Step 6: Display the area of square.
 */
 
 import java.util.*;
-public class Program9{
+public class ProgramNine{
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter the length and breadth of rectangle");
-		int length=sc.nextInt();
-		int breadth=sc.nextInt();
+		int length=scanner.nextInt();
+		int breadth=scanner.nextInt();
 		System.out.println("Enter the side of square");
-		int side=sc.nextInt();
-		int areaOfRect=length*breadth;
-		System.out.println("Area of rectangle: "+areaOfRect);
+		int side=scanner.nextInt();
+		int areaOfRectangle=length*breadth;
+		System.out.println("Area of rectangle: "+areaOfRectangle);
 		int areaOfSquare=side*side;
 		System.out.println("Area of square: "+areaOfSquare);
 	}
